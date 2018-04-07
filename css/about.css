@@ -1,0 +1,43 @@
+.section-about {
+
+}
+
+.section-about h2{
+    color: #5d5d5d !important;
+    margin-bottom: 10px !important;
+}
+
+.section-about p{
+    color: black;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 18px !important;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 500;
+}
+
+.section-about p:last-child{
+    margin-bottom: 50px;
+}
+
+.section-about img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.section-about .img-container{
+    display: flex;
+    justify-content: center;
+}
+
+.section-about .img{
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    background-position: 50% 50%;
+}
